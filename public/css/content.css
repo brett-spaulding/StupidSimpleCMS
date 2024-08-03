@@ -1,0 +1,43 @@
+#headroom {
+    height: 144px;
+}
+
+#header {
+    border-bottom: 6px solid black;
+}
+
+#title {
+    height: 256px;
+}
+
+#title .row {
+    position: relative;
+    top: 50%;
+    margin: 0;
+    transform: translateY(-50%);
+}
+
+#author-info {
+    margin-bottom: 0;
+}
+
+.avatar {
+    border: 3px solid black;
+    vertical-align: middle;
+    height: 36px;
+}
+
+.social-link {
+    font-size: 32px;
+    padding-left: 8px;
+    color: black;
+}
+
+footer .container .row {
+    border-top: 6px solid black;
+}
+
+#footer-social-links {
+    margin-top: 16px;
+}
+
