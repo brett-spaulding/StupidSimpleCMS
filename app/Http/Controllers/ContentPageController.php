@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Mauricius\LaravelHtmx\Facades\HtmxResponse;
 use Mauricius\LaravelHtmx\Http\HtmxResponseClientRedirect;
 use App\Models\ContentPage;
 use Illuminate\Http\Request;
@@ -50,8 +49,13 @@ class ContentPageController extends Controller
     {
         $Parsedown = new Parsedown();
         $page = ContentPage::all()->where('slug', '=', $slug)->first();
-        $pageContent = $Parsedown->text($page->content);
-        return view('contentPage.show', ['contentPage' => $page, 'pageContent' => $pageContent]);
+        if ($page && $page->published) {
+            $pageContent = $Parsedown->text($page->content);
+            return view('contentPage.show', ['contentPage' => $page, 'pageContent' => $pageContent]);
+        } else {
+            return redirect('/');
+        }
+
     }
 
     /**
