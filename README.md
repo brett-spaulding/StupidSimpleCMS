@@ -1,4 +1,6 @@
 
+![Screenshot from 2024-08-03 18-00-13](https://github.com/user-attachments/assets/a618a27c-6eda-4c73-bfa1-d339f1681769)
+
 ##### Are you tired of complicated Content Management Systems that make you want to chemically labotomize yourself? Do you dream of a system so simple, even a caveman could use it?
 
 Well, dream no more! Introducing Stupid Simple CMS - the markdown-driven CMS that's as easy to use as a toaster!
@@ -17,3 +19,6 @@ I've heard everyone you know say "I was skeptical at first, but Stupid Simple CM
 
 
 ##### "Don't wait any longer! Get Stupid Simple CMS today and start publishing like a pro (or at least, like someone who's actively disappointing their parents)!"
+
+*example output:
+![Screenshot from 2024-08-03 17-59-35](https://github.com/user-attachments/assets/fae7e88c-a454-4c9d-a690-39fa8aafe465)
